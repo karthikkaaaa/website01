@@ -1,0 +1,57 @@
+
+[
+  {
+    "id": 1,
+    "title": "Corporate Event Strategy",
+    "description": "Planning and structuring office-based corporate events including meetings, seminars, and conferences before execution.",
+    "tag": "Pre-Event",
+    "image": "/assets/services/Corporate Event Strategy.jpg",
+    "price": 2200,
+    "slots": ["10:00", "14:00", "18:00"]
+  },
+  {
+    "id": 2,
+    "title": "Event Concept Development",
+    "description": "Theme creation, agenda design, and event flow planning aligned with corporate objectives.",
+    "tag": "Planning",
+    "image": "/assets/services/Event- Concept -Development.jpg",
+    "price": 1800,
+    "slots": ["09:00", "13:00", "17:00"]
+  },
+  {
+    "id": 3,
+    "title": "Venue Shortlisting",
+    "description": "Researching and shortlisting professional venues suitable for corporate and office environments.",
+    "tag": "Pre-Event",
+    "image": "/assets/services/Venue -Shortlisting.jpg",
+    "price": 1200,
+    "slots": ["10:00", "15:00"]
+  },
+  {
+    "id": 4,
+    "title": "Vendor Pre-Coordination",
+    "description": "Coordination with caterers, décor teams, and technical vendors before the event day.",
+    "tag": "Management",
+    "image": "/assets/services/Vendor Pre-Coordination.jpg",
+    "price": 1500,
+    "slots": ["11:00", "16:00"]
+  },
+  {
+    "id": 5,
+    "title": "Corporate Branding Design",
+    "description": "Designing standees, backdrops, presentations, and branded materials for corporate events.",
+    "tag": "Design",
+    "image": "/assets/services/Corporate- Branding- Design.jpg",
+    "price": 1000,
+    "slots": ["10:00", "14:00", "18:00"]
+  },
+  {
+    "id": 6,
+    "title": "Event Timeline & Scheduling",
+    "description": "Detailed event timelines, task assignments, and logistical planning prior to execution.",
+    "tag": "Logistics",
+    "image": "/assets/services/Event Timeline & Scheduling.jpg",
+    "price": 900,
+    "slots": ["09:00", "13:00"]
+  }
+]

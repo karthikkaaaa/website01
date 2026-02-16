@@ -1,0 +1,186 @@
+/* =========================
+   THEME VARIABLES
+========================= */
+
+/* Light Mode (default) */
+:root {
+    --bg-color: #fff;
+    --text-color: #111;
+    --text-color-secondary: #555;
+    --text-color-light: #999;
+    --card-bg: #fff;
+    --card-text: #111;
+    --card-text-secondary: #555;
+    --card-border: #e5e5e5;
+    --header-footer-bg: rgba(255, 255, 255, 0.9);
+    --button-bg: #3c009d;
+    --button-text: #fff;
+    --input-bg: #e9e9e9;
+    --input-text: #111;
+    --link-color: #111;
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    --bg-color: #0f0f0f;
+    --text-color: #fff;
+    --text-color-secondary: #ccc;
+    --text-color-light: #aaa;
+    --card-bg: #222;
+    --card-text: #fff;
+    --card-text-secondary: #ccc;
+    --card-border: #555;
+    --header-footer-bg: #111;
+    --button-bg: #7b3cff;
+    --button-text: #fff;
+    --input-bg: #333;
+    --input-text: #fff;
+    --link-color: #fff;
+  }
+  
+  /* =========================
+     BODY & GLOBALS
+  ========================= */
+  /* GLOBAL DARK MODE */
+body.dark {
+  background-color: #111;
+  color: #fff;
+}
+
+/* NAVBAR */
+body.dark .header {
+  background-color: #000;
+  border-bottom: 1px solid #333;
+}
+
+body.dark .nav a {
+  color: #fff;
+}
+
+body.dark .nav a:hover {
+  color: #f39c12;
+}
+
+/* OPTIONAL */
+body.dark section {
+  background-color: #111;
+}
+
+  /* Links inherit theme */
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  /* Buttons global */
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  /* =========================
+     FORM & INPUTS
+  ========================= */
+  input, textarea {
+    background-color: var(--input-bg);
+    color: var(--input-text);
+    border: none;
+    padding: 10px 12px;
+    border-radius: 6px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  /* ===== DARK MODE GLOBAL ===== */
+body.dark {
+  background-color: #0f172a;
+  color: #e5e7eb;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Text */
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark a {
+  color: #e5e7eb;
+}
+
+/* Navbar */
+body.dark .header {
+  background-color: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+body.dark .nav a {
+  color: #e5e7eb;
+}
+
+body.dark .nav a:hover {
+  color: #38bdf8;
+}
+
+/* Buttons */
+body.dark button {
+  background-color: #1e293b;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+}
+
+body.dark button:hover {
+  background-color: #334155;
+}
+
+/* Cards / sections */
+body.dark .card,
+body.dark .services-card,
+body.dark .booking-card {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+body.dark {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+body.dark .header {
+  background-color: #020617;
+}
+
+body.dark a,
+body.dark p,
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+  color: #e5e7eb;
+}
+
+body.dark button {
+  background: #1e293b;
+  color: white;
+}
+body.dark {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+body.dark .header {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+body.dark .nav a {
+  color: #e5e7eb;
+}
+
+body.dark .nav a:hover {
+  color: #38bdf8;
+}
+
+body.dark button {
+  background-color: #1e293b;
+  color: #e5e7eb;
+}

@@ -1,0 +1,269 @@
+.dashboard {
+    max-width: 900px;
+    margin: 120px auto;
+    padding: 20px;
+    font-family: "Georgia", serif;
+  }
+  
+  
+  .dashboard h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #222;
+    letter-spacing: 0.4px;
+  }
+  
+  
+  .empty {
+    text-align: center;
+    color: #777;
+    font-size: 15px;
+  }
+  
+  
+  .booking-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .booking-item {
+    background: #ffffff;
+    padding: 22px 26px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  .booking-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+  }
+  
+  .booking-info h4 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #111;
+  }
+  
+  .booking-info p {
+    margin: 3px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .delete-btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+  
+  .delete-btn:hover {
+    background: #c1121f;
+  }
+  
+  @media (max-width: 600px) {
+    .booking-item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+  
+    .delete-btn {
+      align-self: flex-end;
+    }
+  }
+  
+.booking-item input {
+    width: 160px;
+    padding: 6px 8px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .save-btn {
+    background: #2a9d8f;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background: #999;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover {
+    background: #000;
+  }
+  
+  .save-btn:hover {
+    background: #21867a;
+  }
+  
+  .cancel-btn:hover {
+    background: #777;
+  }
+  
+.welcome-text{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .dark .dashboard h2,
+.dark .dashboard h3,
+.dark .dashboard p,
+.dark .dashboard strong {
+  color: #ffffff;
+} 
+ .dark .booking-item {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}  .dark input {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+} 
+ .dark .edit-btn,
+.dark .save-btn,
+.dark .cancel-btn,
+.dark .delete-btn
+{
+  color: #fff;
+}  
+
+.dark input[type="date"],
+.dark input[type="time"] {
+  background-color: #000;   
+  color: #fff;              
+  border: 1px solid #555;
+}
+.dark input[type="date"]::-webkit-calendar-picker-indicator,
+.dark input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .dashboard {
+    margin: 90px 12px;
+    padding: 10px;
+  }
+
+  .dashboard h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+  .welcome-text {
+    font-size: 22px;
+  }
+
+  .booking-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 18px;
+  }
+
+  .booking-info h4 {
+    font-size: 16px;
+  }
+
+  .booking-info p {
+    font-size: 13px;
+  }
+
+  .booking-item input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .actions {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .edit-btn,
+  .save-btn,
+  .cancel-btn,
+  .delete-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
