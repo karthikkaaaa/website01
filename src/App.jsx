@@ -22,8 +22,10 @@ import AboutUs from "./Pages/AbouUs";
 import ContactUs from "./Pages/ContactUs";
 
 
-import AdminAuth from "./pages/AdminAuth";
-import AdminDashboard from "./pages/AdminDashboard";
+// import AdminAuth from "./pages/AdminAuth";
+// import AdminDashboard from "./pages/AdminDashboard";
+import AdminAuth from "./Pages/AdminAuth";
+import AdminDashboard from "./Pages/AdminDashboard";
 
 
 import { BookingProvider } from "./context/BookingContext";
